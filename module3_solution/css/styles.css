@@ -1,0 +1,77 @@
+/* ========== Base styles ========== */
+
+body {
+    background-color: lightgray;
+    min-width: 250px;
+}
+
+/* ------ HEADER BEGIN ------ */
+
+#header-container {
+    padding: 0;
+    margin: 0;
+    color: black;
+
+}
+
+.navbar-header {
+    background-color: lightseagreen;
+    width: 100%;
+}
+
+.navbar-header .navbar-brand {
+    color: black;
+}
+
+#navbar-dropdown-button {
+    border-color: black;
+}
+
+#navbar-dropdown-button .icon-bar {
+    background-color: black;
+}
+
+#navbar-collapse-menu {
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+#navbar-collapse-menu li>a {
+    color: black;
+}
+
+#navbar-collapse-menu hr {
+    margin: 0;
+}
+
+/* ------ HEADER END ------ */
+
+/* ------ MAIN BEGIN ------ */
+
+#big {
+    /* Really big section */
+    height: 1300px;
+    background-color: rgb(138, 178, 228);
+    overflow: hidden;
+}
+
+/* ------ MAIN BEGIN ------ */
+
+/* ========== Desktop styles - md+ ========== */
+
+@media (min-width: 992px) {
+
+}
+
+/* ========== Tablet styles - sm ========== */
+
+@media (max-width: 991px) and (min-width: 768px) {
+}
+
+/* ========== Mobile styles - xs ========== */
+
+@media (max-width: 767px) {
+    main .row {
+        padding: 25px;
+    }
+}
