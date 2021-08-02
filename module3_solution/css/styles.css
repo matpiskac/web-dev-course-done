@@ -38,6 +38,7 @@ body {
 
 #navbar-collapse-menu li>a {
     color: black;
+    font-size: 1.2em;
 }
 
 #navbar-collapse-menu hr {
@@ -54,22 +55,22 @@ body {
     background-color: rgb(138, 178, 228);
     overflow: hidden;
 }
-
+main .row {
+    padding-top: 25px;
+}
 /* ------ MAIN BEGIN ------ */
 
-/* ========== Desktop styles - md+ ========== */
 
+/* ========== Desktop styles - md+ ========== */
 @media (min-width: 992px) {
 
 }
 
 /* ========== Tablet styles - sm ========== */
-
 @media (max-width: 991px) and (min-width: 768px) {
 }
 
 /* ========== Mobile styles - xs ========== */
-
 @media (max-width: 767px) {
     main .row {
         padding: 25px;
