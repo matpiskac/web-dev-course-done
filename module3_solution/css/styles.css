@@ -34,12 +34,18 @@ body {
 #navbar-collapse-menu {
     text-align: center;
     background-color: lightsteelblue;
+    border: none;
 }
 
 #navbar-collapse-menu li>a {
     color: black;
     font-size: 1.2em;
 }
+
+#navbar-collapse-menu li.divider {
+    border-bottom: solid 1px rgb(136, 136, 136);
+}
+
 
 #navbar-collapse-menu hr {
     margin: 0;
