@@ -1,0 +1,1 @@
+console.log("I am from script 2:", x);
